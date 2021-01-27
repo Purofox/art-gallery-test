@@ -1,0 +1,23 @@
+.search {
+  margin-left: auto;
+}
+
+.search__input {
+  border: 1px solid #E1E1E1;
+  border-radius: 0;
+  box-sizing: border-box;
+  height: 2.5vw;
+  outline: none;
+  padding: .677vw .833vw;
+  width: 15.313vw;
+
+  &::placeholder {
+    color: #9F9F9F;
+    font-family: 'Merriweather', serif;
+    font-size: .729vw;
+  }
+}
+
+.search__submit {
+  width: 6.354vw;
+}

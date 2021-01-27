@@ -1,0 +1,13 @@
+.navigation__list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.navigation__element {
+  margin: 0 1.25vw;
+}
+
+.footer .navigation__element a {
+  color: #555;
+}

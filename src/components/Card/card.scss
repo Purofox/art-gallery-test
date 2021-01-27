@@ -1,0 +1,74 @@
+.card {
+  border: 1px solid #E7E7E7;
+  width: 14.583vw;
+}
+
+.disabled {
+  opacity: .5;
+  pointer-events: none;
+}
+
+.card__img img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card__name {
+  font-size: .938vw;
+  line-height: 150%;
+  padding: 1.042vw 1.875vw 1.25vw 1.198vw;
+}
+
+.card__footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.198vw 1.354vw;
+}
+
+.card__old-price {
+  color: #A0A0A0;
+  text-decoration-line: line-through;
+  font-weight: 300;
+}
+
+.card__current-price {
+  font-size: .833vw;
+  font-weight: bold;
+}
+
+.not-available {
+  font-size: .833vw;
+  font-weight: bold;
+  padding: 0 1.198vw 1.354vw;
+}
+
+.square {
+  animation: loadingG 1.5s cubic-bezier(0.17, 0.37, 0.43, 0.67) infinite;
+  background: #F6F3F3;
+  border-radius: 6px;
+  height: 10px;
+  width: 10px;
+}
+
+@keyframes loadingG {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate(70px, 0) rotate(360deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+
+.added-cart {
+  background: #5B3A32 url("../../assets/feather_check.svg") no-repeat 5px center;
+  transition: .3s;
+}
+
+.added-cart span {
+  margin-left: 20px;
+}

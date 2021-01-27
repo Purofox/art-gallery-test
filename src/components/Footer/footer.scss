@@ -1,0 +1,31 @@
+.footer {
+  background: #ECEAEA;
+  flex: 0 0 auto;
+  padding: 1.25vw 0;
+}
+.footer--container {
+  align-items: center;
+  display: flex;
+}
+.logo {
+  height: 48px;
+  margin-right: 1.25vw;
+}
+.contacts {
+  color: #555;
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts__item {
+  align-items: center;
+  display: flex;
+
+  &:first-child {
+    margin-right: 2.5vw;
+  }
+
+  img {
+    margin-right: 8px;
+  }
+}
